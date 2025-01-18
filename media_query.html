@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query</title>
+    <style>
+        .container{
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            gap:10px;
+        }
+        .food{
+            border:2px solid tomato;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .food img{
+            width:100%
+        }
+        /* smaller device */
+        @media screen and (max-width:576px){
+           .container{
+            grid-template-columns: repeat(1,1fr);
+           }
+           .food{
+            background-color: aquamarine;
+           }
+        }
+        /* medium device */
+        @media screen and (min-width:576px) and (max-width:992px){
+            .container{
+               grid-template-columns: repeat(2,1fr); 
+            }
+            .food{
+                background-color: greenyellow;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="images/png-transparent-eating-healthy-diet-food-healthy-food-natural-foods-food-weight-loss-thumbnail.png" alt="">
+            <h3>Food Item - 1</h3>
+            <p>price: $100</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ipsum ipsam vel? Molestias, quo tempora quisquam sequi non recusandae ab.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/png-transparent-eating-healthy-diet-food-healthy-food-natural-foods-food-weight-loss-thumbnail.png" alt="">
+            <h3>Food Item - 2</h3>
+            <p>price: $200</p>
+            <p>Velit quibusdam odit quae perspiciatis earum? Accusantium et ut, fuga saepe numquam illo ea? Explicabo optio animi modi culpa distinctio.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/png-transparent-eating-healthy-diet-food-healthy-food-natural-foods-food-weight-loss-thumbnail.png" alt="">
+            <h3>Food Item - 3</h3>
+            <p>price: $300</p>
+            <p>Voluptate in consequuntur dolores nobis placeat corrupti distinctio totam eos incidunt culpa error vero facilis optio, obcaecati sapiente? Officiis, culpa.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/png-transparent-eating-healthy-diet-food-healthy-food-natural-foods-food-weight-loss-thumbnail.png" alt="">
+            <h3>Food Item - 4</h3>
+            <p>price: $400</p>
+            <p>Officia eos enim beatae quo libero distinctio voluptate nobis quae assumenda itaque, temporibus inventore blanditiis excepturi perferendis architecto! Repellat, eligendi?</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/png-transparent-eating-healthy-diet-food-healthy-food-natural-foods-food-weight-loss-thumbnail.png" alt="">
+            <h3>Food Item - 5</h3>
+            <p>price: $500</p>
+            <p>Optio sapiente doloremque soluta ut corrupti voluptates repellat eaque ea consequuntur tempora eos incidunt aspernatur, ratione doloribus odit atque nobis.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/png-transparent-eating-healthy-diet-food-healthy-food-natural-foods-food-weight-loss-thumbnail.png" alt="">
+            <h3>Food Item - 6</h3>
+            <p>price: $600</p>
+            <p>Numquam laborum eum eaque reprehenderit ea quasi vero nemo? Reprehenderit non odio officiis fugiat necessitatibus, libero harum sapiente. Nam, dolores.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/png-transparent-eating-healthy-diet-food-healthy-food-natural-foods-food-weight-loss-thumbnail.png" alt="">
+            <h3>Food Item - 7</h3>
+            <p>price: $700</p>
+            <p>Sequi, quasi fugit ratione veniam repudiandae saepe totam. Molestiae rem dicta neque! Voluptatibus reprehenderit eos maiores hic repellendus dolorum dolor.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/png-transparent-eating-healthy-diet-food-healthy-food-natural-foods-food-weight-loss-thumbnail.png" alt="">
+            <h3>Food Item - 8</h3>
+            <p>price: $800</p>
+            <p>Obcaecati eos enim illo rem et, vel culpa, ab, corporis reprehenderit cumque repudiandae porro sit provident a quibusdam vitae ipsam!</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/png-transparent-eating-healthy-diet-food-healthy-food-natural-foods-food-weight-loss-thumbnail.png" alt="">
+            <h3>Food Item - 9</h3>
+            <p>price: $900</p>
+            <p>Laborum accusamus saepe repellendus ea repellat pariatur, voluptate quae ab quibusdam ipsum voluptates mollitia recusandae doloremque, voluptatem quia incidunt consequatur.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/png-transparent-eating-healthy-diet-food-healthy-food-natural-foods-food-weight-loss-thumbnail.png" alt="">
+            <h3>Food Item - 10</h3>
+            <p>price: $1000</p>
+            <p>Sunt veniam quam dolorem magni corrupti, accusamus facilis repellendus fuga optio esse quia ullam omnis, dolor cupiditate obcaecati pariatur atque?</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/png-transparent-eating-healthy-diet-food-healthy-food-natural-foods-food-weight-loss-thumbnail.png" alt="">
+            <h3>Food Item - 11</h3>
+            <p>price: $1100</p>
+            <p>Facilis, dolor, odio id autem sapiente ut consequuntur minus tempora quisquam laudantium eius voluptates eligendi aspernatur ipsa tempore voluptatibus quo.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/png-transparent-eating-healthy-diet-food-healthy-food-natural-foods-food-weight-loss-thumbnail.png" alt="">
+            <h3>Food Item - 12</h3>
+            <p>price: $1200</p>
+            <p>Sunt laboriosam autem perspiciatis provident hic corrupti. Architecto minima, distinctio cumque accusamus illo cum corporis odit unde enim, assumenda magnam?</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+</body>
+</html>
